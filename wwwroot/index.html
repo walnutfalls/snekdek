@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Snekdek</title>  
+  <link rel="stylesheet" href="main.css">
+  <link rel="manifest" href="/manifest.json">
+<script defer src="bundle.js"></script><link href="main.css" rel="stylesheet"></head>
+<body>    
+    <div id="login">
+        <label>Username</label>
+        <input type="text" id="username" />
+        <button id="submit">Let's Go</button>
+    </div>
+
+    <div id="game"></div>
+
+    <div id="retry" class="hidden">
+      <button id="retry-btn">Retry</button>
+    </div>
+
+    <div id="players">
+      <ul id="player-list">
+      </ul>
+    </div>
+
+    <footer id='footer'>
+      <small>Music from https://filmmusic.io:
+        "Beauty Flow" by Kevin MacLeod (https://incompetech.com)
+        Licence: CC BY (http://creativecommons.org/licenses/by/4.0/)</small>
+    </footer>
+
+    <script type="text/javascript" src="bundle.js"></script>    
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+    "short_name": "Snekdek",
+    "name": "Snekdek",
+    "icons": [      
+      {
+        "src": "/favicon.ico",
+        "type": "image/ico",
+        "sizes": "48x48"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#000000",
+    "display": "standalone",
+    "orientation":  "landscape",
+    "scope": "/",
+    "theme_color": "#000000"
+  }
